@@ -1,29 +1,44 @@
 body {
-    margin: 10px;
+    margin: 0;
     width: 100vw;
     height: 100vh;
+    display: flex;
     background-color: #1F2937;
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
     color: white;
     padding: 115px 52px;
     margin: auto;
-    width: 550px;
-    display: flex;
-    flex-direction: column;
-
+    width: 480px;
 }
 
-.bottom-container {
-    display: flex;
-    margin-top: 35px;
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.h1-subtext {
+    color: #4ADF86;
 }
 
 .line {
     height: 2px;
     background: #2F3E53;
-    margin-top:35px;
+    margin-top:44px;
 }
 
 .btn-generate {
@@ -33,22 +48,28 @@ body {
     border-radius: 6px;
     padding: 10px 14px;
     font-size: 16px;
+    font-weight: 500;
     width: 192px;
     text-align: center;
 }
 
 .btn-password {
-    width: 211px;
+    width: 220px;
+    height: 39px;
     background: #2F3E53;
     text-align: center;
     line-height: 32px;
-    font-weight: 400px;
+    font-weight: 500px;
     color: #55F991;
-    margin: 35px 10px;
     border-radius: 6px;
 }
 
 .password-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn-password:hover {
+    color: #D5D4D8
 }
